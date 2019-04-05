@@ -39,7 +39,7 @@ h2 {
     color: white;
 }
 
-.dark-bg a:visited {
+.dark-bg a, .dark-bg a:visited {
     color: white;
 }
 
@@ -75,14 +75,6 @@ h2 {
 
 .fancy-button a:hover {
     color: gray;
-}
-
-div a {
-    display: flex;
-    justify-content: center;
-    width: 25%;
-    padding: 0;
-    margin: 0;
 }
 
 .cover {
@@ -272,6 +264,8 @@ input {
 
 .fancy-email-button a {
     width: 100%;
+    text-align: center;
+    color: white;
 }
 
 .footer-container {
@@ -285,11 +279,15 @@ input {
 
 .footer-section {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .footer-list {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     padding: 0;
     margin: 0;
 }
