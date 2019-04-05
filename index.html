@@ -3,125 +3,141 @@
 <head>
     <title>Billy McGrath - Lab 2</title>
     <link rel="stylesheet" type="text/css" href="styles.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Heebo|Yellowtail" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
-<div class="container-fluid">
-    <div class="row">
-        <div class="container dark-bg">
-            <nav class="navbar">
-                <a class="nav-logo" href="#">Generic Fintech Startup</a>
-                <div class="collapse">
-                    <ul class="nav">
-                        <li class="nav-item">
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="fancy-button" href="#">Join</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+<div class="row dark-bg">
+    <div class="navbar">
+        <div class=logo>
+            <a class="nav-logo" href="#">Fintech</a>
         </div>
-        <div class="container homepage-header light-bg">
-            <h1>This is a generic fintech startup.</h1>
-            <p>Do you want more money? Are you easily tricked by sleek design? Game on.</p>
-            <button>Sign up!</button>
-        </div>
-        <div class="col-12">
-            <a href="#how-it-works"><img src="" id="arrow-down" class="img-fluid"></a>
-        </div>
-    </div>
-
-    <div class="row how-it-works dark-bg" id="how-it-works">
-        <div class="container">
-            <div class="">
-                <h2 id="how-it-works-title">How It Works</h2>
-            </div>
-            <ul class="">
-                <li>
-                    <img src=""/>
-                    <h3>Coffee</h3>
-                    <p>Here is an analogy you might understand, you caffeine-addicted idiot. For less than a cup of coffee a day, blah blah.</p>
+        <div class="collapseable collapsed">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a href="#">Home</a>
                 </li>
-                <li>
-                    <img src="">
-                    <h3>Coin Hand</h3>
-                    <p>That's a hand, and that's also a money sign inside of a coin above it. If you use our product, your hand can also get a money coin.</p>
+                <li class="nav-item">
+                    <a href="#">About</a>
                 </li>
-                <li>
-                    <img src=""/>
-                    <h3>Positive Graph</h3>
-                    <p>A graph going upwards? That must mean profits. Use us and your graph will also go upwards.</p>
+                <li class="nav-item">
+                    <a href="#">Blog</a>
+                </li>
+                <li class="nav-item fancy-button">
+                    <a href="#">Join</a>
+                </li>
+                <li class="nav-item fancy-button-collapsed">
+                    <a href="#">Join</a>
                 </li>
             </ul>
         </div>
     </div>
 </div>
+<div class="row light-bg">
+    <div class="cover landing-page">
+        <h1>This is a generic fintech startup.</h1>
+        <p class="cover-text">Do you want more money? Are you easily tricked by sleek design? Game on.</p>
+        <p><button class="sign-up">Sign up!</button></p>
+    </div>
+</div>
 
-<div class="row section-row">
-    <div class="container light-bg">
+<div class="row how-it-works dark-bg" id="how-it-works">
+    <h2 class="how-it-works-title">How It Works</h2>
+</div>
+<div class="row how-it-works dark-bg">
+    <ul class="three-points">
+        <li>
+            <i class="fas fa-mug-hot"></i>
+            <h3>Coffee</h3>
+            <p>Here is an analogy you might understand, you caffeine-addicted idiot. For less than a cup of coffee a day, blah blah.</p>
+        </li>
+        <li>
+            <i class="fas fa-hand-holding-usd"></i>
+            <h3>Coin Hand</h3>
+            <p>That's a hand, and, uh-oh, that's also a money sign above it. If you use our product, your hand can also get money.</p>
+        </li>
+        <li>
+            <i class="fas fa-chart-line"></i>
+            <h3>Positive Graph</h3>
+            <p>A graph going upwards? That must mean profits. Use us and your graph will also go upwards.</p>
+        </li>
+    </ul>
+</div>
+
+<div class="third-section light-bg">
+    <div class="row section-row">
         <div class="section-head">
             <h2>Another Section</h2>
             <p>In this section, people are smiling. They are also dressed pretty trendy. Might as well trust them and use our product.</p>
         </div>
     </div>
-    <div class="row">
+    <div class="row light-bg third-sect">
         <div class="text-box">
-            <h3 class="box-head">Text heading here</h3>
-            <p class="box-p">Here is some text with some buzz words. Hovering just above patronizing. If you've scrolled this far, just sign up already.</p>
+            <h3 class="box-head">Look at Those Graphs</h3>
+            <p class="box-p">This man's looking at some graphs, and they could be finance related. Also, he's got on not one, but two rings.</p>
+            <p class="box-p">If you want to have enough money to afford two rings, then our product might be the one for you.</p>
             <a href="#">Learn more about this thing...</a>
         </div>
         <div class="image-box">
-            <img src="" />        
+            <img src="img/splash.png" />        
         </div>
     </div>
-    <div class="row">
+    <div class="row light-bg third-sect">
         <div class="image-box">
-                <img src="" />        
+                <img src="img/unsplash.png" />        
             </div>
         <div class="text-box">
-            <h3 class="box-head">Text heading here</h3>
-            <p class="box-p">Here is some text with some buzz words. Hovering just above patronizing. If you've scrolled this far, just sign up already.</p>
+            <h3 class="box-head">Coder in a Trendy Cafe</h3>
+            <p class="box-p">Look at this guy. Over the ear headphones. Fun, short-sleeved shirt. High-top Vans. He's gotta know about fintech stuff.</p>
+            <p class="box-p">If you want to be like this guy, who definitely made and lost some money in the Bitcoin craze, use our product. He's coding in a cafe with primary colored chairs for crying out loud.</p>
             <a href="#">Learn more about this thing...</a>
         </div>
     </div>
 </div>
-
-<div class="row">
-    <p>Enter your email to join our mailing list</p>
-    <div class="container">
-        <input type="email" placeholder="Your email address">
-        <a href="#" class="fancy-button">Sign Up</a>
+<div class="row dark-bg email-section">
+    <div class="email-container">
+        <div class="email-blurb">
+            <p>Enter your email to join our mailing list</p>
+        </div>
+        <div class="email-sign-up">
+            <input type="email" placeholder="Your email address">
+            <div class="fancy-email-button">
+                <a href="#">Sign Up</a>
+            </div>
+        </div>
     </div>
 </div>
 
 <footer>
-    <div class="container dark-bg" id="footer-container">
-        <div class="row">
-            <div class="footer-section">
-                <h3>About us</h3>
-                <ul class="footer-list">
-                    <li class="footer-item">Team</li>
-                    <li class="footer-item">Careers</li>
-                    <li class="footer-item">FAQ</li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h3>More</h3>
-                <ul class="footer-list">
-                    <li class="footer-item">Privacy</li>
-                    <li class="footer-item">Security</li>
-                    <li class="footer-item">Money</li>
-                </ul>
-            </div>
+    <div class="footer-container dark-bg">
+        <div class="footer-section">
+            <h3>About us</h3>
+            <ul class="footer-list">
+                <li class="footer-item">
+                    <a href="#">Team</a>
+                </li>
+                <li class="footer-item">
+                    <a href="#">Careers</a>
+                </li>
+                <li class="footer-item">
+                    <a href="#">FAQ</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>More</h3>
+            <ul class="footer-list">
+                <li class="footer-item">
+                    <a href="#">Privacy</a>
+                </li>
+                <li class="footer-item">
+                    <a href="#">Security</a>
+                </li>
+                <li class="footer-item">
+                    <a href="#">Money</a>
+                </li>
+            </ul>
         </div>
     </div>
 </footer>
